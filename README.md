@@ -24,6 +24,9 @@ Lossy image compression always faces a tradeoff between rate-distortion performa
 ### Usage
 
 For training, set step to 0.
+
 For compressing, set step to 1.
+
 For decompressing set step to 2.
+
 We recommend that you use GPU for training and CPU for testing
