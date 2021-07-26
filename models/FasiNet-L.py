@@ -31,7 +31,7 @@ import numpy as np
 import tensorflow.compat.v1 as tf
 import tensorflow_compression as tfc
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 #Set to "0" to use GPU during training, and "-1" to use CPU during testing
 
 
