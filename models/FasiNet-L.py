@@ -86,7 +86,7 @@ class AnalysisTransform(tf.keras.layers.Layer):
         tfc.SignalConv2D(
             192, (1, 9), name="analysis/layer2", corr=True, strides_down=(1, 4),
             padding="same_zeros", use_bias=True,
-            activation=tfc.GDN(name='gdn2')),
+            activation=None),
     ]
     super(AnalysisTransform, self).build(input_shape)
 
